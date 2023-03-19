@@ -1,0 +1,26 @@
+# Java build output
+target/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Maven files
+mvnw
+mvnw.cmd
+gradle/
+.gradle/
+build/
+
+# Logs
+*.log
+*.log.*
+log/
+logs/
+
+# Other generated files
+bin/
+*.class
+*.jar
