@@ -2,6 +2,8 @@ package com.aabir.arrays;
 
 import com.aabir.utils.Utils;
 
+import java.util.Arrays;
+
 public class BuySellStock {
     public static int maxProfit(int[] prices) {
         int profit = 0;
@@ -17,6 +19,7 @@ public class BuySellStock {
                 profit = prices[i] - min;
             }
         }
+
 
         return profit;
     }
